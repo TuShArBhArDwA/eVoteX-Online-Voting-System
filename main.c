@@ -69,9 +69,9 @@ int main() {
 	scanf("%d", &choice);
 	system("cls");
 	switch(choice) {
-		case 1:
-			insert_candid(cand_arr,&num_candid);
-			break;
+	case 1:
+	    insert_candid(cand_arr,&num_candid);
+	    break;
         case 2:
             register_voter(voter_arr,&num_voters,log);
             break;
